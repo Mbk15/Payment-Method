@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Outfit&family=Smooch+Sans&family=Space+Mono&family=Syne+Mono&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1d1d1d;
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main-container{
+    width: 380px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+/* header Section */
+.header-section{
+    text-align: center;
+}
+.more-img{
+    width: 40px;
+    color: #EEEEEE;
+}
+.header-section h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/* Visa */
+.visa-img{
+    width: 50px;
+}
+
+/* Mastercard */
+.master-img{
+    width: 50px;
+}
+
+/* Maestro */
+.maestro-img{
+    width: 50px;
+}
+/* Next Step */
+.next-step{
+    background-color: #5D8BF4;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.next-step:hover{
+    background-color: #5463FF;
+}
+.next-step:active{
+    transform: translateY(2px);
+}
+.next-step-img{
+    width: 15px;
+}
+.icon{
+    color: white;
+    margin-left: 5px;
+}
+.next-step h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+}
+
+.payment-method-container{
+    display: flex;
+    cursor: pointer;
+    border-top: 1px solid #EEEEEE;
+}
+
+.sections{
+    padding: 15px 2vw;
+}
+h2.payment-method{
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    font-size: 15px;
+    align-self: center;
+}
+
+.payment-method-container:hover{
+    background-color: #EEEEEE;
+}
+
+.checked{
+    margin-left: auto;
+}
+.hidden{
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
+}
